@@ -18,11 +18,11 @@ Ce projet est la suite direct d'un travail de transcription réaliser au semestr
 
 Ce travail a été réalisé à l'aide de [**eScriptorium**](https://fondue.unige.ch/)- 12 pages ont été transcrite. Le cahier manuscrit en compte 250 environ.
 
-L'intégralité de la transcription HTR/brute des 12 pages du registre est accessible sur le dépôt : [Lien vers ton dépôt de transcription HTR](https://github.com/ton-utilisateur/ton-depot-transcription)
+L'intégralité de la transcription HTR/brute des 12 pages du registre est accessible sur le dépôt : [Lien vers ton dépôt de transcription](https://github.com/mroylem/transcription_Bel-Air)
 
 ## Commentaires
 
-Les commentaires sur la transcription sont consultables [ICI](https://github.com/mroylem/transcription_Bel-Air)
+Les commentaires sur la transcription sont consultables [ICI](https://github.com/mroylem/transcription_Bel-Air/blob/main/Commentaires%20de%20la%20transcription.md)
 
 ## Comment citer
 
