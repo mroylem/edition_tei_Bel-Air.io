@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ODD_schema/Transcription_Bel_Air_1907-1916_p183-185.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="ODD_schema/Transcription_Bel_Air_1907-1916_p183-185.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Procès - Verbal de la commission Bel-Air - Commencé le 9 juillet 1907. Terminé le 9 mai 1916.</title>
+            <author>Divers secrétaires de l'Asile de Bel-Air</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Romain Margaron</publisher>
+            <authority>Université de Genève (UNIGE)</authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/legalcode.txt">CC-BY</licence>
+            </availability>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Les Archives d'État de Genève et Les Archives centrales des Hôpitaux Universitaires de Genève</repository>
+                  <idno>PV comm admin Bel-Air_1907-1916</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc><p>1 carnet</p></objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Procès-verbaux écrit entre <date>1907 à 1916</date> à <placeName key="http://www.geonames.org/2660646">Genève</placeName></p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p> Ce document a été encodé dans le cadre du cours de Bibliothèque numérique II - Editions et corpus numériques à l'Université de Genève.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Orthographe et grammaire : Maintien de l’orthographe originale (y compris les
+               variations et archaïsmes) sans modernisation.</p>
+            <p>Date : Les dates sont encodées avec l’élément "date" et un attribut
+               "when" pour indiquer la date en format ISO (AAAA-MM-JJ).</p>
+            <p>Pages édités en TEI : Seules les pages 183 et 184 ont été éditées.</p>
+            <segmentation>
+               <p>Chaque page est segmentée par une "div" et un xml id correspondant au numéro de page.</p>
+               <p>Paragraphes : les paragraphes du texte original sont respectés</p>
+               <p>Mise en page : Les retours à la ligne dans le texte original sont indiqués par l’élément
+                  "lb" afin de garder les mêmes proportions et la même structure que le document d'origine.</p>
+               <p>Mise en page : les titres des paragrpahes inscrit dans les marges du document sont indiqués par l'élément "label place="margin-left""</p>
+               <p>Saut de page : les sauts de page sont indiqués selon la même structure que le document d'origine par un "pb" 
+                  pour en faciliter la lecture par rapport au document manuscrit</p>
+            </segmentation>
+            <normalization>
+               <p>Accents toniques ou utiles à la compréhension ajoutés selon les besoins</p>
+               <p>Les abréviations (telles que "M." ou "D." surmontées d'un tiret ou d'une lettre) sont conservées sous leur 
+                  forme originale sans être développées, et sont symbolisées par un accent circonflexe ("^") dans la transcription (ex: M^r, D^elle).</p>
+               <p>Les abréviations sont conservées telles que dans le texte d'origine, sans être developpées.</p>
+               <p>Les signes de répétition (" ") utilisés dans le manuscrit pour éviter de réécrire un terme identique sont transcrits par le mot attendu,
+                  signalé par une note explicitative.</p>
+            </normalization>
+            <correction>
+               <p>La balise "del" est utilisé pour signalé que le texte est raturé</p>
+               <p>La balise "add" est utilisé pour signifié qu'un mot a été rajouté dans l'interligne</p>
+            </correction>
+            <punctuation><p>La ponctuation est modernisée selon les besoins pour une meilleure compréhension du texte.</p></punctuation>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="it" scheme="css"
+               selector="foreign, la"> font-style: italic; </rendition>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="placeName" occurs="7">Pour encadrer les localisations dans le
+                  manuscrit.</tagUsage>
+               <tagUsage gi="persName" occurs="5">Pour encadrer les noms dans le
+                  manuscrit.</tagUsage>
+               <tagUsage gi="date" occurs="3">Pour encadrer les dates mentionnées.</tagUsage>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="183" facs="P189-194_PV_comm_admin_Bel-Air_1907-1916.pdf_page_1.png"/>
+         <div type="session" xml:id="p183">        
+           <head rend="underline">
+               <lb/>Séance du <date when="1915-02-09">9 Février 1915</date>
+           </head>
+            <p>
+               <lb/>Présidence de M^r. de Conseiller d'Etat <persName>Mussard</persName>
+               <lb/><hi rend="underline">Membres présents</hi> <persName>MM. Falquet</persName>, <persName>Bochet</persName>, <persName>Weber</persName> et 
+               <lb/><persName>Couchet</persName> <hi rend="underline">Excusés</hi> : <persName>MM. Puthon</persName> et <persName>Navazza</persName>.
+            </p>
+            <milestone unit="line" rend="horizontal-rule"/>
+            <p>
+               <label place="margin-left" rend="underline"><persName>Mlle de Sergent</persName></label>
+               <lb/>Lettre du directeur concernant la tentative de suicide de 
+               <lb/><persName><del>Dame</del><add place="above">Dlle</add> de Sergent</persName> ; pas de suites gra
+               <lb break="no" rend="-"/>ves.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline"><persName>Mme Rey</persName></label>
+               <lb/><persName>M^me Rey</persName> n'a pas encore signé la convention relative à sa pension, 
+               <lb/>en suite de sa démission pour cause de santé.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline"><persName>Girod, électricien</persName></label>
+               <lb/>Lettre de <persName>M^. Girod</persName>, électricien relative à son
+               <lb/>indemnité parce qu'il ne boit pas de vin. La
+               <lb/>commission estime qu'il n'y à pas lieu de lui
+               <lb/>accorder plus que les 5 fr. donnés à tous les
+               <lb/>employés hommes
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">État civil des
+               <lb/>décédès</label>
+               <lb/>La direction signale les difficultés nouvelles que
+               <lb/>lui suscite le maire de <placeName>Thonex</placeName> pour l'inscription
+               <lb/>des décès, et la visite du médecin inspecteur. La
+               <lb/>lettre a été envoyée au dep^t. de Justice et police
+               <lb/>pour décision.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">Matelassier</label>
+               <lb/>Le matelassier était jusqu'à ce jour un des
+               <lb/>malades. Il a un cancer et a du être remplacé
+               <lb/>dans ce service par une infirmier.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">Rapport du mois</label>
+               <table rend="calcul">
+                  <row>
+                     <cell><lb/>Les recettes de Janvier sont de</cell>
+                     <cell>16.567<hi rend="superscript">F</hi>.85</cell>
+                  </row>
+                  <row>
+                     <cell><lb/>Les dépenses <seg type="ditto">" "</seg></cell>
+                     <cell>38.630,<del rend="strikethrough">4</del><add place="overwritten">1</add>0</cell>
+                  </row>
+                  <row rend="total-line">
+                     <cell><lb/>Déficit</cell>
+                     <cell>22.062<hi rend="superscript">F</hi>,<del rend="strikethrough">2</del><add place="overwritten">5</add>5</cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <lb/>Plus fort qu'en 1914 par suite de l'obligation
+               <lb/>de payer comptant le combustible.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">Poteaux électriques</label>
+               <lb/>Plusieurs des poteaux de l'avenue sont en mau-
+               <lb break="no" rend="-"/>sais état. Le directeur est chargé de voir avec
+               <lb/>la commune si elle ne prolongerait pas la
+               <lb/>canalisation pour l'eclairage au gaz.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">Fermier</label>
+               <lb/>Le fermier demande une diminution du prix
+            </p>
+         </div>
+         <pb n="184" facs="P189-194_PV_comm_admin_Bel-Air_1907-1916.pdf_page_2.png"/>
+         <div type="session" xml:id="p183_suite">
+            <p>
+               <lb/>des lavures, la quantité étant moindre. Le même
+               <lb/>cas s'est produit à l'hôpital ; le rabais a été
+               <lb/>refusé - Il sera répondu négativement.
+            </p>
+         </div>
+         <div type="session" xml:id="p184">
+            <p>
+            <label place="margin-left" rend="underline">Soumission viande</label>
+            <lb/>2 soumissions :
+            <lb/>MMM. <persName>Rocanier</persName> et <persName>Rauph</persName>, fournisseurs actuels
+            <lb/>offrent la viande suivant une liste de prix
+            <lb/>ou avec rabais de 16% sur les prix du
+            <lb/>syndicat.
+            <lb/>M^r. <persName>Micolod</persName> offre rabais de 16% -
+            <lb/>La commission estime que dans les circonstances
+            <lb/>actuelles les prix de la liste ne seront pas
+            <lb/>tenus ; il vaut mieux accepter le rabais de
+            <lb/>16%.
+            <lb/>Le rabais étant le même, S^t. <persName>Micolod</persName> étant
+            <lb/>citoyen Suisse, et MMM. <persName>Rocanier</persName> et <persName>Rauph</persName> four-
+            <lb break="no" rend="-"/>nissant déjà l'hôpital, il est décidé d'adjuger
+            <lb/>à M^r. Micolod.
+            </p>
+            <closer>
+               <lb/>Séance levée à 5h 3/4
+               <lb/>Le Président
+               <lb/><signed><persName>J.Mussard</persName></signed>
+            </closer>
+         </div>
+         <milestone unit="section" rend="double-line"/>
+         <div type="session" xml:id="session_1915-03-09">
+            <head rend="underline">
+               <lb/>Séance du <date when="1915-03-09">9 Mars 1915</date>.
+            </head>
+            <p>
+               <lb/>Présidence de M. le Conseiller d'Etat <persName>Mussard</persName>.
+               <lb/><hi rend="underline">Membres présents</hi> : MM. <persName>Bochet</persName>, <persName>Puthon</persName>, <persName>Navazza</persName>,
+               <lb/><persName>Falquet</persName>, <persName>Ritzchel</persName>, <persName>Mégevand</persName>. - MM. <persName>Weber</persName> et <persName>Couchet</persName>
+            </p>
+            <milestone unit="section" rend="horizontal-rule"/>
+            <p>
+               <label place="margin-left" rend="underline">Boucherie Micolod</label>
+               <lb/>Le procès verbal de la précédente séance est lu et adopté.
+               <lb/>M^r. <persName>Falquet</persName> dit avoir appris que M^r. Micolod
+               <lb/>auquel la fourniture de viande a été adjugée
+               <lb/>n'a pas de boucherie.
+               <lb/>M^r. <persName>Couchet</persName> confirme le fait ; mais dans quelques
+               <lb/>jours il l'aura. Attendre jusque là pour réclamer
+               <lb/>au sujet des fournitures qui laissent à désirer.
+            </p>
+        </div>
+         <pb n="185" facs="P189-194_PV_comm_admin_Bel-Air_1907-1916.pdf_page_3.png"/>
+         <div type="session" xml:id="p185">
+            <p>
+               <label place="margin-left" rend="underline">Frais de rapatriement</label>
+               <lb/>Lettre du dep^t. de Justice et police relative aux frais
+               <lb/>de transports d'aliénés étrangers ; la Confédération ne
+               <lb/>rembourse que les frais de transport, pas les frais
+               <lb/>accessoires.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">Chefs de métiers</label>
+               <lb/>Ils demandent par lettre à être libres de midi à
+               <lb/>2^h. au lieu de 1^h.1/2 ; la 1/2 heure se retrouvera
+               <lb/>à un autre moment. Vu les heures de travail
+               <lb/>des malades, la commission fixe le repas des chefs
+               <lb/>de métiers de 11^h.1/2 à 1^h.1/2.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">Rapport du directeur</label>
+               <lb/>Signale l'entrée en Février d'un assez grand nombre
+               <lb/>de femmes très agitées. Cela complique le service de
+               <lb/>la salle d'observation.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">Rapport de l'économe</label>
+               <lb/>Recettes 14.331^F.35
+               <lb/>Dépenses 32.151^F.20.
+               <lb/>Des difficultés sont à prévoir pour la fourniture
+               <lb/>des combustibles ; ainsi que pour quelques denrées.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline"><persName>M^me. Rey</persName> infirmière</label>
+               <lb/>Lettre de <persName>M^me. Rey</persName> au sujet de sa pension ; elle
+               <lb/>n'a pas accepté de signer la convention à ce sujet.
+               <lb/>La commission charge le président de lui répondre
+               <lb/>que la pension sera de 30% dès le <date when="1914-12-15">15 décembre
+               <lb break="no"/>1914</date> ; le salaire ne comprendra pas l'indemnité
+               <lb/>de 60 fr. de chef de pavillon, qui doit disparaître
+               <lb/>le jour où un employé pour cause de maladie
+               <lb/>ou autre, ne remplit plus ses fonctions ; la
+               <lb/>pension cessera si son invalidité cesse.
+            </p>
+            <p>
+               <label place="margin-left" rend="underline">D^r. Odier</label>
+               <lb/>La direction est autorisée à prendre comme as-
+               <lb break="no" rend="-"/>sistant le <persName>D^r. Odier</persName> ; il recevra son entretien et
+               <lb/>celui de sa femme mais pas d'indemnité. Il
+               <lb/>remplace le <persName>D^r. Kühne</persName>.
+            </p>
+            <closer>
+               <lb/>Séance levée à 6^h.
+               <lb/>Le Président
+               <lb/><signed><persName>J.Mussard</persName></signed>
+            </closer>
+         </div>
+      </body>        
+   </text>
+</TEI>
