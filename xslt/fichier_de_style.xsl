@@ -14,6 +14,9 @@
             </head>
             <body>
                 <header class="main-header">
+                    <div style="text-align: left; margin-bottom: 10px;">
+                        <a href="index.html" style="text-decoration: none; font-weight: bold; color: #333; border: 1px solid #333; padding: 5px 12px; border-radius: 4px; background: #fff;">← Accueil</a>
+                    </div>
                     <h1>Procès-verbaux de la Commission Administrative de Bel-Air</h1>
                 </header>
                 <main>
