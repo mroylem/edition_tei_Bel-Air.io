@@ -22,7 +22,7 @@ L'intégralité de la transcription HTR/brute des 12 pages du registre est acces
 
 ## Commentaires
 
-Les commentaires sur la transcription sont consultables [ICI]([https://github.com/mroylem/transcription_Bel-Air/blob/main/Commentaires%20de%20la%20transcription.md](https://github.com/mroylem/transcription_Bel-Air))
+Les commentaires sur la transcription sont consultables [ICI](https://github.com/mroylem/transcription_Bel-Air)
 
 ## Comment citer
 
