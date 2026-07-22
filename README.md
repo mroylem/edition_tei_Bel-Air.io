@@ -25,7 +25,7 @@ Les commentaires sur la transcription sont consultables [ICI](https://github.com
 
 ## Comment citer
 
-cf. [CITATION.cff](https://github.com/mroylem/edition_tei_Bel-Air.io/blob/main/CITATION.cff) file.
+Voir [CITATION.cff](https://github.com/mroylem/edition_tei_Bel-Air.io/blob/main/CITATION.cff) file.
 
 ## Licences
 
