@@ -1,5 +1,4 @@
 # Édition numérique TEI — Procès-verbaux de la Commission Administrative de Bel-Air (1907-1916)
-![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg) 
 
 
 Ce dépôt est dédié à la validation du séminaire [Bibliothèques numériques II Editions et corpus numériquese](https://pgc.unige.ch/main/teachings/details/2025-32M7127?year=2025&fac=default-value)
