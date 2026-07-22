@@ -25,7 +25,7 @@ Les commentaires sur la transcription sont consultables [ICI](https://github.com
 
 ## Comment citer
 
-cf. [`htr-united.yml`](https://github.com/mroylem/transcription_Bel-Air/blob/main/htr-united.yml) file.
+cf. [CITATION.cff](https://github.com/mroylem/edition_tei_Bel-Air.io/blob/main/CITATION.cff) file.
 
 ## Licences
 
