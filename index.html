@@ -6,100 +6,126 @@
         <title>Édition Numérique — Procès-verbaux de Bel-Air</title>
         <link rel="stylesheet" href="style.css">
         <style>
-        /* Styles spécifiques à la page d'accueil */
+        
         .home-container {
             max-width: 900px;
-            margin: 0 auto;
-            background: #ffffff;
+            margin: 40px auto;
+            background: #fcf9f2; 
             padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 6px;
+            border: 1px solid #d8c8b0;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
         }
+
+        .home-container h2 {
+            color: #4a2e12;
+            border-bottom: 2px solid #8b5a2b;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
         .btn-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
             margin-top: 30px;
         }
+
         .btn-card {
             display: block;
             padding: 20px;
-            background: #f8f9fa;
-            border: 2px solid #333;
+            background: #f4eedd;
+            border: 1px solid #b8a890;
             border-radius: 6px;
             text-align: center;
             text-decoration: none;
-            color: #333;
+            color: #4a2e12;
             font-weight: bold;
             transition: all 0.2s ease;
         }
+
         .btn-card:hover {
-            background: #333;
-            color: #fff;
+            background: #8b5a2b;
+            color: #ffffff;
+            border-color: #8b5a2b;
             transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
         }
+
         .btn-card span {
             display: block;
             font-size: 0.85em;
             font-weight: normal;
             margin-top: 5px;
+            opacity: 0.9;
         }
     </style>
     </head>
     <body>
         
-        <div class="home-container">
+       
+        <header class="main-header">
             <h1>Procès-verbaux de la Commission Administrative de Bel-Air (1907-1916)</h1>
-            <p><em>Édition numérique et modélisation TEI</em></p>
-            
-            <hr class="horizontal-rule">
-            
-            <h2>Équipe</h2>
-            <p>
-                Ce projet a été réalisé par <strong>Romain Margaron</strong> dans le cadre du Master Patrimoine régional et Humanité numérique de <strong>l'Université de Neuchâtel(UNINE)</strong>. 
+            <p style="margin-top: 8px; font-style: italic; color: #e8dcc4;">Édition numérique TEI</p>
+        </header>
+        
+        <main>
+            <div class="home-container">
                 
-                Il s'inscrit dans les enseignements des séminaires : <a href="https://pgc.unige.ch/main/teachings/details/2025-32M7128?year=2025&amp;fac=default-value" target="_blank"><u>Bibliothèque numérique I - Gestion de projet (conception, partage, archivage).</u></a> et <a href="https://pgc.unige.ch/main/teachings/details/2025-32M7127?year=2025&amp;fac=default-value"><u>Bibliothèque numérique II - Éditions et corpus numériques</u></a> dispensé à <strong>l'Université de Genève (UNIGE)</strong>.
-            </p>
-            
-            <h2>Le projet &amp; le manuscrit</h2>
-            <p>
-                Le document édité s'intitule : <em>Procès - Verbal de la commission Bel-Air - Commencé le 9 juillet 1907. Terminé le 9 mai 1916.</em>. 
-                Suite à un travail de transcription réalisé sur 12 pages via eScriptorium au semestre précédent, cet échantillon (pages 183 à 185) a fait l'objet d'un encodage TEI.
-            </p>
-            
-            <h2>Accès aux ressources</h2>
-            <div class="btn-grid">
+                <hr class="horizontal-rule">
                 
-                <a href="edition.html" class="btn-card" target="_blank">
-                     Consulter l'Édition TEI
-                    <span>Visualisation côte à côte (Fac-similés &amp; Transcription)</span>
-                </a>
+                <h2>Équipe</h2>
+                <p>
+                    Ce projet a été réalisé par <strong>Romain Margaron</strong> dans le cadre du Master Patrimoine régional et Humanité numérique de <strong>l'Université de Neuchâtel(UNINE)</strong>. 
+                    
+                    Il s'inscrit dans les enseignements des séminaires : <a href="https://pgc.unige.ch/main/teachings/details/2025-32M7128?year=2025&amp;fac=default-value" target="_blank"><u>Bibliothèque numérique I - Gestion de projet (conception, partage, archivage).</u></a> et <a href="https://pgc.unige.ch/main/teachings/details/2025-32M7127?year=2025&amp;fac=default-value"><u>Bibliothèque numérique II - Éditions et corpus numériques</u></a> dispensé à <strong>l'Université de Genève (UNIGE)</strong>.
+                </p>
                 
-               
-                <a href="ODD_documentation/Transcription_Bel_Air_1907-1916_p183-185.html" class="btn-card" target="_blank">
-                     Documentation ODD
-                    <span>Spécifications du schéma et règles d'encodage</span>
-                </a>
+                <h2>Le projet &amp; le manuscrit</h2>
+                <p>
+                    Le document édité s'intitule : <em>Procès - Verbal de la commission Bel-Air - Commencé le 9 juillet 1907. Terminé le 9 mai 1916.</em>. 
+                    Suite à un travail de transcription réalisé sur 12 pages via eScriptorium au semestre précédent, cet échantillon (pages 183 à 185) a fait l'objet d'un encodage TEI.
+                </p>
                 
-              
-                <a href="https://github.com/mroylem/transcription_Bel-Air" target="_blank" class="btn-card">
-                     Dépôt Transcription
-                    <span>Consulter la première partie du projet</span>
-                </a>
-                
-                
-                <a href="https://github.com/mroylem/edition_tei_Bel-Air.io/archive/refs/heads/main.zip" class="btn-card">
-                     Télécharger le Dépôt
-                    <span>Obtenir l'intégralité du projet au format .zip</span>
-                </a>
-                
-                <a href="https://github.com/mroylem/edition_tei_Bel-Air.io/blob/main/CITATION.cff" class="btn-card" target="_blank">
-                    Comment citer
-                    <span>Vers le document citation</span>
-                </a>
-                
+                <h2>Accès aux ressources</h2>
+                <div class="btn-grid">
+                    
+                    <a href="edition.html" class="btn-card" target="_blank">
+                        Consulter l'Édition TEI
+                        <span>Visualisation côte à côte (Fac-similés &amp; Transcription)</span>
+                    </a>
+                    
+                    
+                    <a href="ODD_documentation/Transcription_Bel_Air_1907-1916_p183-185.html" class="btn-card" target="_blank">
+                        Documentation ODD
+                        <span>Spécifications du schéma et règles d'encodage</span>
+                    </a>
+                    
+                    
+                    <a href="https://github.com/mroylem/transcription_Bel-Air" target="_blank" class="btn-card">
+                        Dépôt Transcription
+                        <span>Consulter la première partie du projet</span>
+                    </a>
+                    
+                    
+                    <a href="https://github.com/mroylem/edition_tei_Bel-Air.io/archive/refs/heads/main.zip" class="btn-card">
+                        Télécharger le Dépôt
+                        <span>Obtenir l'intégralité du projet au format .zip</span>
+                    </a>
+                    
+                    <a href="https://github.com/mroylem/edition_tei_Bel-Air.io/blob/main/CITATION.cff" class="btn-card" target="_blank">
+                        Comment citer
+                        <span>Vers le document citation</span>
+                    </a>
+                    
+                </div>
             </div>
-        </div>
+        </main>
+        
+        
+        <footer>
+            Procès-verbaux de la Commission Administrative de Bel-Air (1907-1916) — Université de Neuchâtel
+        </footer>
         
     </body>
 </html>
