@@ -6,7 +6,7 @@ Ce document détaille les choix méthodologiques, les règles d'encodage et la p
 
 ## Contexte & Périmètre du projet
 * **Cadre académique :** Séminaire *Bibliothèque numérique II - Éditions et corpus numériques*, Université de Genève (UNIGE).
-* **Périmètre éditorial :** Édition numérique en TEI appliquée aux **pages 183 et 184** du registre manuscrit.
+* **Périmètre éditorial :** Édition numérique en TEI appliquée aux **pages 183 à 185** du registre manuscrit.
 
 ---
 

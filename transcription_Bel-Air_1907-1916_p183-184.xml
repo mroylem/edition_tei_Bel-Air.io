@@ -35,36 +35,32 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p> Ce document a été encodé dans le cadre du cours de Bibliothèque numérique II - Editions et corpus numériques à l'Université de Genève.</p>
+            <p>Ce document a été encodé dans le cadre du cours de Bibliothèque numérique II - Éditions et corpus numériques à l'Université de Genève.</p>
          </projectDesc>
          <editorialDecl>
-            <p>Orthographe et grammaire : Maintien de l’orthographe originale (y compris les
-               variations et archaïsmes) sans modernisation.</p>
-            <p>Date : Les dates sont encodées avec l’élément "date" et un attribut
-               "when" pour indiquer la date en format ISO (AAAA-MM-JJ).</p>
-            <p>Pages édités en TEI : Seules les pages 183 et 184 ont été éditées.</p>
+            <p>Orthographe et grammaire : Maintien de l’orthographe originale (y compris les variations et archaïsmes) sans modernisation.</p>
+            <p>Date : Les dates sont encodées avec l’élément "date" et un attribut "when" pour indiquer la date au format ISO (AAAA-MM-JJ).</p>
+            <p>Pages éditées en TEI : Seules les pages 183 à 185 ont été éditées.</p>
             <segmentation>
-               <p>Chaque page est segmentée par une "div" et un xml id correspondant au numéro de page.</p>
-               <p>Paragraphes : les paragraphes du texte original sont respectés</p>
-               <p>Mise en page : Les retours à la ligne dans le texte original sont indiqués par l’élément
-                  "lb" afin de garder les mêmes proportions et la même structure que le document d'origine.</p>
-               <p>Mise en page : les titres des paragrpahes inscrit dans les marges du document sont indiqués par l'élément "label place="margin-left""</p>
-               <p>Saut de page : les sauts de page sont indiqués selon la même structure que le document d'origine par un "pb" 
-                  pour en faciliter la lecture par rapport au document manuscrit</p>
+               <p>Chaque page est segmentée par une "div" et un xml:id correspondant au numéro de page.</p>
+               <p>Paragraphes : Les paragraphes du texte original sont respectés.</p>
+               <p>Mise en page : Les retours à la ligne dans le texte original sont indiqués par l’élément "lb" afin de garder les mêmes proportions et la même structure que le document d'origine.</p>
+               <p>Mise en page : Les titres des paragraphes inscrits dans les marges du document sont indiqués par l'élément label avec l'attribut place="margin-left".</p>
+               <p>Saut de page : Les sauts de page sont indiqués selon la même structure que le document d'origine par un "pb" pour en faciliter la lecture par rapport au document manuscrit.</p>
             </segmentation>
             <normalization>
-               <p>Accents toniques ou utiles à la compréhension ajoutés selon les besoins</p>
-               <p>Les abréviations (telles que "M." ou "D." surmontées d'un tiret ou d'une lettre) sont conservées sous leur 
-                  forme originale sans être développées, et sont symbolisées par un accent circonflexe ("^") dans la transcription (ex: M^r, D^elle).</p>
-               <p>Les abréviations sont conservées telles que dans le texte d'origine, sans être developpées.</p>
-               <p>Les signes de répétition (" ") utilisés dans le manuscrit pour éviter de réécrire un terme identique sont transcrits par le mot attendu,
-                  signalé par une note explicitative.</p>
+               <p>Accents toniques ou utiles à la compréhension ajoutés selon les besoins.</p>
+               <p>Les abréviations (telles que "M." ou "D." surmontées d'un tiret ou d'une lettre) sont conservées sous leur forme originale sans être développées, et sont symbolisées par un accent circonflexe ("^") dans la transcription (ex: M^r, D^elle).</p>
+               <p>Les abréviations sont conservées telles que dans le texte d'origine, sans être développées.</p>
+               <p>Les signes de répétition (" ") utilisés dans le manuscrit pour éviter de réécrire un terme identique sont transcrits par le mot attendu, signalé par une note explicative.</p>
             </normalization>
             <correction>
-               <p>La balise "del" est utilisé pour signalé que le texte est raturé</p>
-               <p>La balise "add" est utilisé pour signifié qu'un mot a été rajouté dans l'interligne</p>
+               <p>La balise "del" est utilisée pour signaler que le texte est raturé.</p>
+               <p>La balise "add" est utilisée pour signifier qu'un mot a été rajouté dans l'interligne.</p>
             </correction>
-            <punctuation><p>La ponctuation est modernisée selon les besoins pour une meilleure compréhension du texte.</p></punctuation>
+            <punctuation>
+               <p>La ponctuation est modernisée selon les besoins pour une meilleure compréhension du texte.</p>
+            </punctuation>
          </editorialDecl>
          <tagsDecl>
             <rendition xml:id="it" scheme="css"
