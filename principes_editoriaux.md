@@ -1,4 +1,4 @@
-# Principes d'encodage et Déclaration Éditoriale (TEI P5)
+# Principes d'encodage et d'éditoriale (TEI)
 
 Ce document détaille les choix méthodologiques, les règles d'encodage et la politique éditoriale appliqués lors de l'édition numérique des *Procès-verbaux de la Commission Administrative de Bel-Air- Commencé le 9 juillet 1907. Terminé le 9 mai 1916.*.
 
