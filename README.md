@@ -3,7 +3,7 @@
 
 Ce dépôt est dédié à la validation du séminaire [Bibliothèques numériques II Editions et corpus numériquese](https://pgc.unige.ch/main/teachings/details/2025-32M7127?year=2025&fac=default-value)
 
-Le résultat est consultable via ce lien : https://mroylem.github.io/edition_tei_Bel-Air.io/
+Le résultat est consultable via ce lien : [https://mroylem.github.io/edition_tei_Bel-Air.io/](https://mroylem.github.io/edition_tei_Bel-Air.io/)
 
 ## Manuscrit
 
