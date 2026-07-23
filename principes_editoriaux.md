@@ -1,6 +1,6 @@
 # Commentaire sur l'encodage TEI
 
-Ce document détaille les choix méthodologiques, les règles d'encodage et la politique éditoriale appliqués lors de l'édition numérique des *Procès-verbaux de la Commission Administrative de Bel-Air- Commencé le 9 juillet 1907. Terminé le 9 mai 1916.*.
+Ce document détaille les choix méthodologiques, les choix éditoriaux et les règles d'encodage appliqués lors de l'édition numérique des *Procès-verbaux de la Commission Administrative de Bel-Air- Commencé le 9 juillet 1907. Terminé le 9 mai 1916.*.
 
 ---
 
